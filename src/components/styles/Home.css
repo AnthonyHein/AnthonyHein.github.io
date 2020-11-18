@@ -1,0 +1,33 @@
+.btn-orange {
+    background-color: #E1712F;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: transparent;
+    color: #E1712F;
+    border-color: #E1712F;
+}
+
+.btn-outline-orange {
+    background-color: transparent;
+    color: #E1712F;
+    border-color: #E1712F;
+}
+
+.btn-outline-orange:hover {
+    background-color: #E1712F;
+    color: white;
+}
+
+.intro-p {
+    padding-bottom: 20px;
+}
+
+.display-4 {
+    font-size: 52px;
+}
+
+.jumbotron {
+    height: 100vh;
+}

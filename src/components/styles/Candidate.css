@@ -1,0 +1,48 @@
+.candidate {
+    margin-top: 30px;
+}
+
+.details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-item > * {
+    padding-left: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: xx-large;
+}
+
+.btn-orange {
+    background-color: #E1712F;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #CD6428;
+    color: white;
+    border-color: #CD6428;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.doc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.candidate-image {
+    padding: 10px 0;
+}

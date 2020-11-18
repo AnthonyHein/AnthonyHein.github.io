@@ -1,0 +1,31 @@
+section:first-of-type > h2 {
+    padding-top: 25px;
+}
+
+section > h2 {
+    text-decoration: underline;
+}
+
+section {
+    padding-bottom: 1000px;
+}
+
+section:last-of-type {
+    padding-bottom: 50px;
+}
+
+.section-title {
+    font-size: xx-large;
+}
+
+.person > a:hover {
+    text-decoration: none;
+}
+
+.title {
+    padding-top: 20px;
+}
+
+.fake-div {
+    height: 48px;
+}
