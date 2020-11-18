@@ -2,6 +2,7 @@ import React from "react";
 
 import {listOfCandidates} from "../candidates";
 import {Col, Container, Row} from "react-bootstrap";
+import { HashLink } from 'react-router-hash-link';
 import Candidate from "./Candidate";
 import "./styles/Candidates.css";
 import Sidebar from "./Sidebar";
@@ -71,7 +72,7 @@ export default class Candidates extends React.Component {
                     </section>
                 </>
             );
-            navLinks.push(<li className="person"><a href={"#" + person.name}>{person.name}</a></li>);
+            navLinks.push(<li className="person"><HashLink smooth to={"/meet-the-candidates#" + person.name}>{person.name}</HashLink></li>);
         }
 
         return (

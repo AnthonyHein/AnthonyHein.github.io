@@ -30,9 +30,9 @@ export default class Home extends React.Component {
                         nunc vel arcu. Vestibulum eu fermentum dui, at congue felis. Duis faucibus felis tellus.
                     </p>
 
-                    <Button variant={"orange"} className={"text-center"} href={"/vote"}>Vote Now!</Button>{' '}
+                    <Button variant={"orange"} className={"text-center"} href={"#/vote"}>Vote Now!</Button>{' '}
                     <Button variant={"outline-orange"} className={"text-center"}
-                            href={"/meet-the-candidates"}>Meet the Candidates</Button>
+                            href={"#/meet-the-candidates"}>Meet the Candidates</Button>
                 </Container>
             </Jumbotron>
         )
