@@ -14,7 +14,7 @@ function App() {
                 <Switch>
                     <Route path={"/meet-the-candidates"}><Candidates /></Route>
                     <Route path={"/vote"}><Vote /></Route>
-                    <Route path={"/"}><Home/></Route>
+                    <Route path={"/"}><Candidates /></Route>
                 </Switch>
             </Router>
         </div>
