@@ -19,9 +19,9 @@ export default class MyNavbar extends React.Component {
                     <Navbar.Toggle aria-controls="navbar"/>
                     <Navbar.Collapse id={"navbar"}>
                         <Nav className={"mr-auto"}>
-                            <Nav.Link href={"/"}>Home</Nav.Link>
-                            <Nav.Link href={"/meet-the-candidates"}>Meet the Candidates</Nav.Link>
-                            <Nav.Link href={"/vote"}>Vote</Nav.Link>
+                            <Nav.Link href={"#/"}>Home</Nav.Link>
+                            <Nav.Link href={"#/meet-the-candidates"}>Meet the Candidates</Nav.Link>
+                            <Nav.Link href={"#/vote"}>Vote</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -46,3 +46,7 @@
 .candidate-image {
     padding: 10px 0;
 }
+
+.react-pdf__Page, .react-pdf__Page__annotations, .annotationLayer {
+  max-height: 1500px;
+}

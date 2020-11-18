@@ -88,6 +88,9 @@ export default class Candidates extends React.Component {
                                 listen to their introductory speeches, and read their platforms.
                             </p>
                             {allCandidates}
+                            <p>
+                              Use the sidebar to view other candidates!
+                            </p>
                         </main>
                     </Col>
                 </Row>
