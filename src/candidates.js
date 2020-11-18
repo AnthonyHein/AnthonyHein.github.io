@@ -3,19 +3,19 @@ export const listOfCandidates = [
       'name': 'Zachary Shevin',
       'imagePath': './images/shevin.jpg',
       'recordingPath': './recordings/shevin.mp4',
-      'platformPath': 'https://github.com/DailyPrincetonianTech/elections.dailyprincetonian.com/raw/dev/public/platforms/mcgee.pdf'
+      'platformPath': './platforms/shevin.pdf'
   },
   {
       'name': 'Anna McGee',
       'imagePath': './images/mcgee.jpg',
       'recordingPath': './recordings/mcgee.mp4',
-      'platformPath': '/mcgee.pdf'
+      'platformPath': './platforms/mcgee.pdf'
   },
   {
       'name': 'Kenny Peng',
       'imagePath': './images/peng.jpg',
       'recordingPath': './recordings/peng.mp4',
-      'platformPath': 'peng.pdf'
+      'platformPath': './platforms/peng.pdf'
   },
   {
       'name': 'Emma Treadway',
