@@ -2,6 +2,13 @@
     padding-top: 20px;
 }
 
-.jumbotron {
-    height: 100vh;
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 1000px;
+  height: 1750px;
+  border: none;
 }

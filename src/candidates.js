@@ -1,26 +1,20 @@
 export const listOfCandidates = [
   {
-      'name': 'Zachary Shevin',
-      'imagePath': './images/shevin.jpg',
-      'recordingPath': './recordings/shevin.mp4',
-      'platformPath': './platforms/shevin.pdf'
-  },
-  {
       'name': 'Anna McGee',
       'imagePath': './images/mcgee.jpg',
-      'recordingPath': './recordings/mcgee.mp4',
+      'recordingPath': './recordings/mcgee.m4a',
       'platformPath': './platforms/mcgee.pdf'
   },
   {
       'name': 'Kenny Peng',
       'imagePath': './images/peng.jpg',
-      'recordingPath': './recordings/peng.mp4',
+      'recordingPath': './recordings/peng.m4a',
       'platformPath': './platforms/peng.pdf'
   },
   {
       'name': 'Emma Treadway',
       'imagePath': './images/treadway.jpg',
-      'recordingPath': './recordings/treadway.mp4',
+      'recordingPath': './recordings/treadway.m4a',
       'platformPath': './platforms/treadway.pdf'
   }
 ]

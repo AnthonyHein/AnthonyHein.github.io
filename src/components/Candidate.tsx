@@ -62,7 +62,7 @@ export default class Candidate extends React.Component<IProps, IState> {
                     <div className="flex-item left">
                         <h3 className={"name"}>{this.props.name}</h3>
                         <Image src={this.props.imagePath} className={"candidate-image"}/>
-                        <ReactAudioPlayer src={"./recordings/horse.ogv"} controls/>
+                        <ReactAudioPlayer src={this.props.recordingPath} controls/>
                     </div>
                     <div className={"flex-item"}>
                         <div className={"doc"}>
@@ -89,4 +89,3 @@ export default class Candidate extends React.Component<IProps, IState> {
         );
     }
 }
-
